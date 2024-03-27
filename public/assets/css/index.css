@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top{
+    display: block;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    bottom: 50px;
+    right: 100px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18PX;
+}
+
+a{
+    text-decoration: none;
+}
+.top{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.top ul{
+    float: right;
+}
+.top ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    background-color: #1E9FFF;
+    margin-left: 10px;
+}
+.top ul li a{
+    padding: 5px;
+    color: #ffffff;
+}
+.layui-view-body{
+    background-image: url('../images/bj.jpg');/*不知道啥*/
+    background-repeat: repeat;
+   background-attachment: fixed;
+
+    
+}
+#test10{
+    margin: 0 auto;
+}
+
+.box{
+    width: 1200px;
+    min-height: 300px;
+    margin: 0 auto;
+    border-radius: 25px;
+    /* border: 1px solid red; */
+}
+.box .box-left{
+    width: 762px;
+    min-height: 500px;
+   float: left;
+    /* border: 1px solid red; */
+}
+
+.box .box-left li{
+    justify-content: center;
+    width: 370px;
+    min-height: 180px;
+    border: 3px solid #31BDEC;
+    float: left;
+    padding: 0 10px ;
+    color: #1E9FFF ;
+    font-size: 30px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255,0.5);
+}
+.box .box-left li p{
+    text-indent: 2em;
+}
+.box .box-left li a{
+    width: 390px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.box .box-left li img{
+    width: 62px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box .box-r{
+    width: 300px;
+    min-height: 200px;
+    float: right;
+    /* border: 1px solid red; */
+    color: #1E9FFF;
+    font-size: 16px;
+}
+.box .box-r h1{
+    text-align: center;
+    color: chocolate;
+}
+.box-r-list{
+    width: 280px;
+    margin: 0 auto;
+    /* border: 1px solid rebeccapurple; */
+    height: 60px;
+}
+
+.box-r-list .left{
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 25px;
+    margin: 3px;
+    overflow: hidden;
+}
+.box-r-list .name{
+    display: block;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+

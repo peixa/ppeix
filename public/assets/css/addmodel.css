@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.top ul{
+    float: right;
+}
+.top ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    background-color: #1E9FFF;
+    margin-left: 10px;
+}
+.top ul li a{
+    padding: 5px;
+    color: #ffffff;
+}
+.layui-view-body{
+    background-image: url('../images/bj.jpg');/*不知道啥*/
+}
+#test10{
+    margin: 0 auto;
+}
+
+.box{
+    width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255,0.6);
+}
+.box .vox-list{
+    display: block;
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-left: 10px;
+}
